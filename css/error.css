@@ -1,0 +1,29 @@
+
+
+@font-face {
+    font-family: abel;
+    src: url('./Abel-Regular.ttf');
+}
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #525050;
+    user-select: none;
+}
+
+.content-pic {
+    position: relative;
+    top: 100px;
+    left: 37%;
+}
+
+.text {
+    margin-top: 150px;
+    position: relative;
+    font-family: abel;
+    color: rgb(197, 20, 20);
+    font-size: 64px;
+    text-align: center;
+}
