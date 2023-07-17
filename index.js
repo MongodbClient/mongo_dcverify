@@ -20,9 +20,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('./css'))
 app.use(express.static('./data'))
 
-
-
-
 app.get('/', (request, result) => {
     if (request.session.error) {
         request.session.error = undefined;
