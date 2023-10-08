@@ -59,8 +59,8 @@ app.get('/error', (request, result) => {
 passport.use(
     new DiscordStrategy(
         {
-            clientID: '1129711538287149147',
-            clientSecret: 'DQvda9LIjrtpjH9fTlG6u4uITML7_ggi',
+            clientID: '',
+            clientSecret: '',
             callbackURL: 'http://localhost:1337/auth/discord/callback',
             scope: ['identify']
         },
